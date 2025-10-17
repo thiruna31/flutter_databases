@@ -1,0 +1,27 @@
+name: flutter_database
+description: A simple Flutter app with SQLite local database using sqflite
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📦 SQLite & File System
+  sqflite: ^2.2.2
+  path_provider: ^2.0.11
+  path: ^1.8.2
+
+  # 🧭 Icons and Material3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
