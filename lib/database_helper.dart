@@ -7,7 +7,7 @@ class DatabaseHelper {
   static const _databaseVersion = 1;
 
   static const table = 'my_table';
-  static const columnId = '_id';
+  static const columnId = '_Id';
   static const columnName = 'Name';
   static const columnAge = 'Age';
 
